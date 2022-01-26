@@ -4,6 +4,8 @@ Python3 Class to parse EDIFACT MSCONS messages and converter to get a csv file f
 
 Only the variant of MSCONS that is used by the utilies in Luxembourg will be tested. This is version 2.1a of the German MSCONS formats. The data will be accepted as liberally as possible so that possibly other dialects will also get read correctly.
 
+Originally written by @jay-christnach.
+
 Small changes were made by @flo-f to optimize for version 2.4 of the German format.
 
 ## How to use
