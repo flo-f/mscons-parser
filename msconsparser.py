@@ -122,7 +122,7 @@ class MSCONSparser:
             match = re.search('UNS\+D', segment)
             if match:
                 return 'UNS', self.sg.next()
-            match = re.search('LOC\+(.*?)\+(.*?):(.*?):(.*?)$|\+', segment)
+            match = re.search('LOC\+(.*?)\+(.*):?(.*?):?(.*?)$|\+', segment)
             if match:
                 location = match.group(2)
                 self._currentLocation = location
